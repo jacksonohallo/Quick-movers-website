@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color: black;
+    display:flex;
+    justify-content: right;
+    box-sizing: 10rem;
+
+}
+    
+nav>.thenewlink>ul>li{
+    display: inline-block;
+    color: white;
+     margin-right: 5rem;
+     padding-bottom: 3rem;
+}
+
+.btn{ background-color:#FAFF00;}
+
+.hse{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.modern{ margin-left: 10rem;}
+#cash{ margin-right:10rem}
+.hse>.modern>p{
+    font-size: 10px;
+}
+
+.hse>#cash>p{  font-size: 10px;
+ text-align: center;}
+
+ .property-house{
+       width: 500px;  
+    height: 510px;  
+    
+}
+.column {
+  float: left;
+  width: 13.4%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;}
+
+
+ .form{margin-right: 50rem;}
+      
