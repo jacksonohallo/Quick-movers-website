@@ -270,7 +270,7 @@
         margin-right: 490px;
         background-color: white;
         border-radius: 20px 20px 0px 0px;
-        font-weight: 750;
+        font-weight: 700;
     }
     
     .Air-condi {
@@ -286,8 +286,8 @@
     }
     
     #Air {
-        padding-left: 47px;
-        padding-right: 47px;
+        padding-left: 46px;
+        padding-right: 46px;
         padding-bottom: 20px;
         padding-top: 10px;
     }
@@ -301,6 +301,7 @@
     
     div #similar {
         text-decoration-line: overline;
+        color: black;
     }
     
     .last-images {
@@ -574,7 +575,8 @@ span{ margin-left: 5rem;}
 
 .description{
     margin-left: 8.5em;
-}
+
+font-weight: bold};
 
 
 .move-down{
