@@ -107,6 +107,11 @@ background-color: black;
 
 }
 
+.moverlink {
+  color: white;
+  text-decoration: none;
+}
+
 .leftside {
   width: 33%;
 }
