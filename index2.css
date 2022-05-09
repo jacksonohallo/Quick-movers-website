@@ -270,7 +270,7 @@
         margin-right: 490px;
         background-color: white;
         border-radius: 20px 20px 0px 0px;
-        font-weight: 700;
+        font-weight: 750;
     }
     
     .Air-condi {
@@ -286,8 +286,8 @@
     }
     
     #Air {
-        padding-left: 46px;
-        padding-right: 46px;
+        padding-left: 47px;
+        padding-right: 47px;
         padding-bottom: 20px;
         padding-top: 10px;
     }
