@@ -1,59 +1,195 @@
-*{
-    margin:0;
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Poppins:wght@100&display=swap');
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Adamina';
 }
-
-
-nav{
-    background-color: black;
-    display:flex;
-    justify-content: right;
-    box-sizing: 10rem;
-
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 245px;
+    padding-right: 20%;
+    justify-content: end;
 }
-    
-nav>.thenewlink>ul>li{
-    display: inline-block;
-    color: white;
-     margin-right: 5rem;
-     padding-bottom: 3rem;
+.overlay {
+    background-image: url("../assests/images/moving\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
-
-.btn{ background-color:#FAFF00;}
-
-.hse{
-    background-color: black;
-    color: white;
-    display:flex;
-    justify-content: space-between;
-
+ul {
+    display: flex;
+    color: #fff;
+    list-style: none;
+    gap: 70px;
 }
-
-.modern{ margin-left: 10rem;}
-#cash{ margin-right:10rem}
-.hse>.modern>p{
-    font-size: 10px;
+li a {
+    text-decoration: none;
+    color: #fff;
 }
-
-.hse>#cash>p{  font-size: 10px;
- text-align: center;}
-
- .property-house{
-       width: 500px;  
-    height: 510px;  
-    
+.button-1 {
+        background: rgb(249 255 18);
+        color: #000;
+        padding: 0px 7px 2px 12px;
 }
-.column {
-  float: left;
-  width: 13.4%;
-  padding: 5px;
+.sign {
+    background: #000;
+    color: rgb(249 255 18);
+    padding: 0px 9px 2px 12px;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;}
-
-
- .form{margin-right: 50rem;}
-      
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: center;
+    margin-left: 10%;
+}
+.header h2 {
+    color: rgb(249 255 18);
+    font-weight: lighter;
+    font-size: 60px;
+}
+.header p {
+    color: #ccc;
+    font-size: 36px;
+    margin-top: 28px;
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+.container {
+    font-size: 26px;
+}
+.container h2 {
+    font-weight: lighter;
+    font-size: 50px;
+}
+.container p {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+section.hustle {
+    display: flex;
+    height: 739px;
+    align-items: center;
+    gap: 183px;
+}
+hr.line {
+    width: 30%;
+    height: 6px;
+    background-image: linear-gradient(to right, orange,yellowgreen, green);
+}
+.learn{
+    padding: 15px 60px 15px 30px;
+    background: #000;
+    color: rgb(249 255 18);
+    font-size: 16px;
+    border-top-right-radius: 20px;
+}
+.hustle img {
+    width: 600px;
+    margin-left: 100px;
+}
+.topmovers {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    background: rgba(204, 204, 204, 0.21);
+    padding-left: 10%;
+}
+hr.line2 {
+    width: 9%;
+    height: 5px;
+    background-image: linear-gradient(to right, orange,yellowgreen, green);
+}
+.topmovers h2 {
+    font-weight: lighter;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.box2 img {
+    width: 25px;
+}
+.box3 img {
+    width: 25px;
+}
+.truck img {
+    width: 340px;
+}
+.icons {
+    display: flex;
+    gap: 5px;
+}
+section.services {
+    display: flex;
+    justify-content: center;
+    background: #cccccc36;
+    height: 600px;
+    gap: 120px;
+}
+.box1 {
+    padding: 20px 20px 20px 42px;
+}
+.box2 {
+    padding: 20px 20px 20px 50px;
+}
+.box3 {
+    padding: 20px 20px 20px 50px;
+}
+.A-plusmovers {
+    background: #fff;
+    height: 415px;
+    border-bottom-left-radius: 43px;
+    border-bottom-right-radius: 43px;
+    box-shadow: 1px 3px 4px 0px #cccc;
+}
+h3 {
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+section.footer {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding-left: 10%;
+}
+section.footerlinks {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    height: 206px;
+    align-items: center;
+}
+.footer h2 {
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+span {
+    font-family: 'Poppins';
+    color: #FFAC12;
+}
+.socialmedia {
+    display: flex;
+    gap: 50px;
+}
+.links {
+    display: flex;
+    gap: 150px;
+    line-height: 1.6;
+}
+.links p {
+    color: #ccc;
+}
+p.p1 {
+    color: #fff;
+}
+.fa-arrow-right:before {
+    padding-left: 10px;
+}
